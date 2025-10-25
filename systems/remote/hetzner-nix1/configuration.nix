@@ -63,7 +63,10 @@
     curl
     bash
     btop
-    pkgs.nerd-fonts.monaspace
+  ];
+
+  fonts.packages = with pkgs; [
+    nerd-fonts.monaspace
   ];
 
   # List services that you want to enable:
