@@ -63,9 +63,6 @@
     curl
     bash
     btop
-  ];
-
-  fonts.packages = with pkgs; [
     nerd-fonts.monaspace
   ];
 
