@@ -19,7 +19,7 @@
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
-  i18n.extraLocales = ["de_DE.UTF-8/UTF-8"];
+  i18n.extraLocales = ["de_DE.UTF-8"];
   i18n.extraLocaleSettings = {
     # LC_ALL = "en_US.UTF-8"; # This overrides all other LC_* settings.
     LC_CTYPE = "en_US.UTF8";
