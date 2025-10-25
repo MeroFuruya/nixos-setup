@@ -64,6 +64,7 @@
     curl
     bash
     btop
+    git
     nerd-fonts.monaspace
   ];
 
