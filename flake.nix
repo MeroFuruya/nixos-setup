@@ -25,7 +25,7 @@
       "x86_64-darwin"
     ];
   in {
-    nixosModules = {
+    nixosConfiguration = {
       remote-hetzner-nix0 = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
