@@ -48,7 +48,6 @@
     isNormalUser = true;
     extraGroups = ["wheel"]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
-      tree
     ];
     openssh.authorizedKeys.keys = [
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKnpgpQ95z6uFvT3moMo11bZ2MV6nvM19wMyYKpUI9Zo"
@@ -65,6 +64,7 @@
     bash
     btop
     git
+    tree
     nerd-fonts.monaspace
   ];
 
